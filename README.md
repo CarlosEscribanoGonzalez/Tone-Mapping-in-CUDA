@@ -7,16 +7,10 @@ GPU implementation of the histogram-based stage of HDR tone mapping, written in 
 * Luminance histogram computed on the GPU
 * CDF obtained with a parallel exclusive scan
 
-## Authorship
-
-I only developed the code in `funcHDR.cu`. The rest of the project (host code, image loading, reference implementation and build files) is not mine and is included only so the project can run.
-
 ## Technologies
 
 * C++
 * CUDA
 
-## Requirements
-
-* NVIDIA GPU with CUDA support
-* CUDA Toolkit
+## Disclaimer
+Due to the small scope of this project and the tedious setup it requires (CUDA, OpenCV, NVIDIA GPU), I am only publishing the source code I developed myself. The remaining base code is not mine and is not included, so this repository is not compilable on its own.
